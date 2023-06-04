@@ -1,1 +1,16 @@
-html {background-color: black}
+html {
+    background-color: black
+}
+
+h1 {
+    text-align: center;
+    color: lightblue;
+}
+
+p {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
