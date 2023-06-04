@@ -1,2 +1,73 @@
+<!DOCTYPE html>
+<html>
+
 <link rel="stylesheet" href="styles.css">
-<h1> Hello There! </h1>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $("map").mouseenter(function () {
+            console.log("entered");
+        });
+
+    });
+</script>
+<script>
+
+</script>
+
+<head>
+    <!-- HTML Codes by Quackit.com -->
+    <title>
+        Pheonix House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The (un)Official front page of Pheonix House.">
+
+</head>
+
+<body>
+    <h1>Pheonix House</h1>
+    <p>Lorem Ect.</p>
+
+    <div class="container">
+        <div class="item" name="item">
+            <img alt="img" data-bg_fill="rgba(244,124,67,0.5)" class="hmap8807" src="/images/img1.jpg" width="720"
+                height="351" usemap="#demo" style="display: block;">
+
+            <map name="demo">
+                <area alt="Counter" title="Counter" href=""
+                    coords="232,483 250,455 248,297 255,291 253,286 1,266 -6,488 " shape="polygon">
+                <area alt="Tire" title="Tire" href="" coords="455,374 462,410 521,453 494,373 496,322 472,336 "
+                    shape="polygon">
+                <area alt="Dude" title="Dude" href=""
+                    coords="411,216 426,219 431,210 440,211 432,196 426,192 425,187 419,186 418,192 411,194 408,204 412,205 "
+                    shape="polygon">
+            </map>
+
+        </div>
+        <div class="item">
+            <img src="/images/img2.jpg" usemap="#bedroom">
+            <map name="bedroom">
+                <area alt="Sign" title="Sign" href="" coords="21,102,97,191" shape="rect">
+                <area alt="Lamp" title="Lamp" href="" coords="446,281,13" shape="circle">
+                <area alt="Bed" title="Bed" href=""
+                    coords="0,329 26,327 57,318 83,319 107,312 108,308 117,307 131,308 135,303 140,304 146,294 156,293 177,291 201,292 212,297 214,302 219,302 223,318 267,339 304,384 325,439 335,445 339,450 348,454 328,463 281,466 268,462 268,479 240,483 2,484 "
+                    shape="polygon">
+            </map>
+
+        </div>
+        <div class="item">
+            <img src="/images/img3.jpg" alt="Kitchen">
+        </div>
+        <div class="item">
+            <img src="/images/img4.jpg" alt="Kitchen">
+        </div>
+    </div>
+    <script src="js/mapoid.js"></script>
+    <script>
+        $("map[name=demo]").mapoid();
+        $("map[name=bedroom]").mapoid();
+    </script>
+</body>
+
+</html>
