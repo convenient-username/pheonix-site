@@ -1,49 +1,41 @@
 h1 {
-    font-family: Arial, sans-serif;
-    color: #ffffff;
-    background-color: #000000;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  background-color: #000000;
+  text-align: center;
 }
 
 p {
-    text-align: center;
-    font-family: Georgia, serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    color: #ffffff;
+  text-align: center;
+  font-family: Georgia, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
 }
 
 div {
-    text-align: center;
+  text-align: center;
 }
 
 body {
-    background-color: #000000;
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-attachment: fixed;
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
 }
 
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    align-items: auto;
-    align-content: start
-  }
-  .container:after {
-    display: block;
-    content: " placeholder ";
-    margin: 6px;
-    flex: 999 999 auto;
-  }
-  .item {
-    flex: 0 0 auto;
-    margin: 6px;
-  }
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
 
-  .item {
-    filter: blur(0px);
-  }
+.room {
+  margin: auto;
+}
+#canvas {
+  background-color: rgb(253, 248, 232);
+  border: 5px solid #333;
+  margin: auto;
+}
